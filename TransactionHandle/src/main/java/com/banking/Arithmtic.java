@@ -8,7 +8,7 @@ public class Arithmtic {
 		}
 		catch (Exception e) {
 			// TODO: handle exception
-		   System.out.println(e.getMessage());
+		   System.out.println(e.getStackTrace());
 		}
 	       return x+y;
 	}
